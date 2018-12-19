@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url(/css/sanitize.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Noto Sans Japanese', serif;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFF8DC;
+  
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+a:link, a:visited, a:hover, a:active {
+  color: #0000ff;
+  text-decoration: none;
+}
+header {
+	text-align:center;
+}
+.career {
+	text-align:center;
+	
+}
+.career p{
+	text-align:center;
+	padding:10px 300px;
+}
+.portfolio{
+	padding-bottom:300px;
+	text-align:center;
+}
+.links {
+	padding-left:200px;
+	padding-top:20px;
+}
+.link {
+	float:left;
+	width:33%;
+	padding-left:;
+}
+h1 {
+	text-align:center;
+}
+form {
+	text-align:center;
+}
+.contact {
+	padding:400px 200px 50px 200px;
+}
+.link p {
+	padding-left:50px
+}
+.link a {
+	text-align:center;
+}
+a.cp_btn {
+	position: relative;
+	display: block;
+	width: 160px;
+	padding: 0.8em;
+	margin-left:10px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #8E24AA;
+	text-shadow: 0 0 5px white;
+	background: repeating-linear-gradient(-45deg, #CE93D8, #CE93D8 3px,#E1BEE7 3px, #E1BEE7 7px);
+	transition: .4s;
+	border-radius: 4px;
+}
+a.cp_btn:hover {
+	background: repeating-linear-gradient(-45deg, #CE93D8, #CE93D8 5px,#E1BEE7 5px, #E1BEE7 9px);
+	transition: .4s;
+}
+.app {
+	padding-top:0px;
+}
+.twitter {
+	color:#00BFFF;
+}
+.build-age {
+	color:#FFA07A;
+}
+i {
+	padding-left:20px;
+}
+.hobby-container {
+	width:50%;
+	float:left;
+}
+.hobby-container img{
+	width:35%;
+	height:350px;
+	margin-left:115px;
+}
+.hobby-container p{
+	width:70%;
+}
+.hobby-containers {
+	margin-left:150px
+}
+.hobby-p{
+	text-align:center;
+	padding:10px 300px;
+}
+marquee {
+	font-size:30px;
+	margin-bottom:20px;
+}
+footer {
+	background-color:#FFF0F5;
+	height:80px;
+}
